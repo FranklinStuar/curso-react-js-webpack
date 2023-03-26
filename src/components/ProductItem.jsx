@@ -7,7 +7,7 @@ const ProductItem = () => {
 
 	const handleClick = () => {
 		console.log("click on handle")
-		setCart('Hola mundo');
+		setCart([]);
 	}
 
 	return (
@@ -22,7 +22,6 @@ const ProductItem = () => {
 					<img src={ButtonCartIcon} alt="" />
 				</figure>
 			</div>
-				{cart}
 		</div>
 	);
 }

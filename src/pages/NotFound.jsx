@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Home = () => {
-  return (
-    <h1>Not Found Page!</h1>
-  );
+const NotFound = () => {
+	return (
+		<div>
+			No encontrado, error 404.
+		</div>
+	);
 }
 
-export default Home;
+export default NotFound;
